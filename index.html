@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Photo Booth</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    
+
+    <video id="video" autoplay playsinline></video>
+    <canvas id="canvas" style="display:none;"></canvas>
+
+    <button id="capture">Take Photos</button>
+    <a href="#" id="download">Download Strip</a>
+<label for="stripColor"></label>
+    <input type="color" id="stripColor" value="#ffffff" />
+   
+  </div>
+ <div id="strip" class="strip"></div>
+  <script src="script.js"></script>
+</body>
+</html>

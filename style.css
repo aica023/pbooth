@@ -1,0 +1,76 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.color-picker {
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+
+video, canvas {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+video {
+  transform: scaleX(-1);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a#download {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.strip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
+  background-color: var(--strip-bg-color, #ffffff);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.photo {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
